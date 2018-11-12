@@ -51,5 +51,7 @@ public void countUp(View view)
 ```
 Which of the following techniques is more efficient to use within this handler to change the Button element's background color? Choose one:
 
-1) Use findViewById to find the Count Button. Assign the result to a View variable, and then use ```setBackgroundColor()```.
+
+My answer -> 1) Use findViewById to find the Count Button. Assign the result to a View variable, and then use ```setBackgroundColor()```.
+
 2) Use the view parameter that is passed to the click handler with ```setBackgroundColor(): view.setBackgroundColor()```
